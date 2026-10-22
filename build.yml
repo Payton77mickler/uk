@@ -1,0 +1,72 @@
+name: Build Kiln installer
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'kiln/package.json'
+
+permissions:
+  contents: write
+
+jobs:
+  mods:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        mc: ['1.20.1', '1.20.4', '1.20.6', '1.21', '1.21.1']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.10.2'
+      - name: Build client mod for ${{ matrix.mc }}
+        continue-on-error: true
+        working-directory: kiln-client
+        run: gradle build -Pmc=${{ matrix.mc }}
+      - name: Collect jar
+        shell: bash
+        run: |
+          mkdir -p out
+          cp kiln-client/build/libs/*.jar out/kiln-client-${{ matrix.mc }}.jar || echo "Build failed for ${{ matrix.mc }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: mod-${{ matrix.mc }}
+          path: out/*.jar
+          if-no-files-found: ignore
+
+  installer:
+    needs: mods
+    if: ${{ !cancelled() }}
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: mod-*
+          merge-multiple: true
+          path: kiln/resources/clients
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Point updater at this repo
+        shell: bash
+        working-directory: kiln
+        run: npm pkg set repository="https://github.com/${{ github.repository }}"
+      - name: Build and publish release
+        working-directory: kiln
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          npm install
+          npm run release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Kiln-Installer
+          path: kiln/dist/*.exe

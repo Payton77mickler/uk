@@ -1,0 +1,32 @@
+plugins {
+    id 'fabric-loom' version '1.7-SNAPSHOT'
+}
+
+// Build for one Minecraft version at a time:  gradle build -Pmc=1.20.1
+def mc = project.property('mc')
+def vp = new Properties()
+file("versions/${mc}.properties").withInputStream { vp.load(it) }
+def javaVer = vp.getProperty('java') as int
+
+version = "${project.mod_version}+${mc}"
+group = 'dev.kiln'
+base { archivesName = 'kiln-client' }
+
+dependencies {
+    minecraft "com.mojang:minecraft:${mc}"
+    mappings "net.fabricmc:yarn:${vp.getProperty('yarn')}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${vp.getProperty('loader')}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${vp.getProperty('fabric')}"
+}
+
+processResources {
+    def props = [version: project.version.toString(), mc: mc, java: javaVer.toString(), level: "JAVA_${javaVer}".toString()]
+    inputs.properties(props)
+    filesMatching(['fabric.mod.json', 'kiln.mixins.json']) { expand props }
+}
+
+tasks.withType(JavaCompile).configureEach { it.options.release = javaVer }
+java {
+    sourceCompatibility = JavaVersion.toVersion(javaVer)
+    targetCompatibility = JavaVersion.toVersion(javaVer)
+}
