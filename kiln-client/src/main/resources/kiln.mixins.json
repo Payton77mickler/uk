@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.kiln.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MouseMixin", "GameRendererMixin", "InGameOverlayRendererMixin", "InGameHudMixin", "WorldRendererMixin"],
+  "injectors": { "defaultRequire": 0 }
+}

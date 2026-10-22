@@ -1,0 +1,1220 @@
+[
+ {
+  "id": "fps",
+  "name": "FPS counter",
+  "category": "Info",
+  "group": "",
+  "default": true
+ },
+ {
+  "id": "ping",
+  "name": "Ping",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "cps",
+  "name": "CPS (both)",
+  "category": "Info",
+  "group": "",
+  "default": true
+ },
+ {
+  "id": "cps_left",
+  "name": "CPS left click",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "cps_right",
+  "name": "CPS right click",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "clock24",
+  "name": "Clock 24h",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "clock12",
+  "name": "Clock 12h",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "clock_sec",
+  "name": "Clock with seconds",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "date",
+  "name": "Date",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "weekday",
+  "name": "Day of week",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "session",
+  "name": "Session timer",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "playercount",
+  "name": "Player count",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "server",
+  "name": "Server address",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "username",
+  "name": "Username",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "gamemode",
+  "name": "Game mode",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "difficulty",
+  "name": "Difficulty",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "dimension",
+  "name": "Dimension",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "singleplayer",
+  "name": "Singleplayer / multiplayer",
+  "category": "Info",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "coords",
+  "name": "Coordinates",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "coord_x",
+  "name": "X coordinate",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "coord_y",
+  "name": "Y coordinate",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "coord_z",
+  "name": "Z coordinate",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "blockpos",
+  "name": "Block position",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chunkpos",
+  "name": "Chunk position",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chunk_offset",
+  "name": "Position in chunk",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nether_coords",
+  "name": "Nether coordinates",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "overworld_coords",
+  "name": "Overworld coordinates",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "direction",
+  "name": "Facing direction",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "yaw",
+  "name": "Yaw",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "pitch",
+  "name": "Pitch",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "speed",
+  "name": "Speed (blocks/s)",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "speed_kmh",
+  "name": "Speed (km/h)",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "vspeed",
+  "name": "Vertical speed",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fall",
+  "name": "Fall distance",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "walked",
+  "name": "Distance walked",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "sealevel",
+  "name": "Height above sea level",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "biome",
+  "name": "Biome",
+  "category": "Position",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "health",
+  "name": "Health",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "absorption",
+  "name": "Absorption",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "hunger",
+  "name": "Hunger",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "saturation",
+  "name": "Saturation",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "armor",
+  "name": "Armor points",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "armor_total",
+  "name": "Total armor durability",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "xplevel",
+  "name": "XP level",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "xpprogress",
+  "name": "XP progress",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "air",
+  "name": "Air supply",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "status",
+  "name": "Movement state",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "onground",
+  "name": "On ground",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "inwater",
+  "name": "In water",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "onfire",
+  "name": "On fire",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "flying",
+  "name": "Flying",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "effects",
+  "name": "Active effect count",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "slot",
+  "name": "Selected hotbar slot",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "cooldown",
+  "name": "Attack cooldown",
+  "category": "Player",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "mainhand",
+  "name": "Main hand item",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "offhand",
+  "name": "Offhand item",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "hand_count",
+  "name": "Held stack size",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "hand_dur",
+  "name": "Held item durability",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "helmet_dur",
+  "name": "Helmet durability",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chest_dur",
+  "name": "Chestplate durability",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "legs_dur",
+  "name": "Leggings durability",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "boots_dur",
+  "name": "Boots durability",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "free_slots",
+  "name": "Free inventory slots",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "arrows",
+  "name": "Arrow count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "pearls",
+  "name": "Ender pearl count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "gapples",
+  "name": "Golden apple count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "egapples",
+  "name": "Enchanted golden apple count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "totems",
+  "name": "Totem count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "xpbottles",
+  "name": "XP bottle count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "rockets",
+  "name": "Firework count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "tnt",
+  "name": "TNT count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "obsidian",
+  "name": "Obsidian count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "crystals",
+  "name": "End crystal count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "snowballs",
+  "name": "Snowball count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "eggs",
+  "name": "Egg count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "diamonds",
+  "name": "Diamond count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "iron",
+  "name": "Iron ingot count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "gold",
+  "name": "Gold ingot count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "emeralds",
+  "name": "Emerald count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "netherite",
+  "name": "Netherite ingot count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "cobble",
+  "name": "Cobblestone count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "steak",
+  "name": "Cooked beef count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "bread",
+  "name": "Bread count",
+  "category": "Items",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "light",
+  "name": "Light level",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "blocklight",
+  "name": "Block light",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "skylight",
+  "name": "Sky light",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "daytime",
+  "name": "World time",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "daycount",
+  "name": "Day count",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "moon",
+  "name": "Moon phase",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "weather",
+  "name": "Weather",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "look_block",
+  "name": "Block you are looking at",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "look_pos",
+  "name": "Targeted block position",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "look_entity",
+  "name": "Entity you are looking at",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "look_dist",
+  "name": "Target distance",
+  "category": "World",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "mem",
+  "name": "Memory usage",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "mem_pct",
+  "name": "Memory percent",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "java",
+  "name": "Java version",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "mcver",
+  "name": "Minecraft version",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "os",
+  "name": "Operating system",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "cores",
+  "name": "CPU cores",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "modcount",
+  "name": "Loaded mod count",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fov_show",
+  "name": "FOV setting",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "rd_show",
+  "name": "Render distance",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "sd_show",
+  "name": "Simulation distance",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "gui_show",
+  "name": "GUI scale",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "maxfps_show",
+  "name": "FPS limit",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "sens_show",
+  "name": "Mouse sensitivity",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "window",
+  "name": "Window size",
+  "category": "System",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "keystrokes",
+  "name": "Keystrokes",
+  "category": "Overlay",
+  "group": "",
+  "default": true
+ },
+ {
+  "id": "armorhud",
+  "name": "Armor HUD",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "potionhud",
+  "name": "Potion HUD",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "inventoryhud",
+  "name": "Inventory HUD",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "targethud",
+  "name": "Target HUD",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "crosshair_dot",
+  "name": "Crosshair dot",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "crosshair_cross",
+  "name": "Colored crosshair",
+  "category": "Overlay",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fullbright",
+  "name": "Fullbright",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nobob",
+  "name": "No view bobbing",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nofovfx",
+  "name": "No FOV effects",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nodistort",
+  "name": "No distortion effects",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fov70",
+  "name": "FOV 70",
+  "category": "Visual",
+  "group": "fov",
+  "default": false
+ },
+ {
+  "id": "fov90",
+  "name": "FOV 90",
+  "category": "Visual",
+  "group": "fov",
+  "default": false
+ },
+ {
+  "id": "fov110",
+  "name": "FOV 110",
+  "category": "Visual",
+  "group": "fov",
+  "default": false
+ },
+ {
+  "id": "clouds_off",
+  "name": "Clouds off",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "ao_off",
+  "name": "Smooth lighting off",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_shadows",
+  "name": "No entity shadows",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "blend0",
+  "name": "No biome blending",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "gui2",
+  "name": "GUI scale 2",
+  "category": "Visual",
+  "group": "gui",
+  "default": false
+ },
+ {
+  "id": "gui3",
+  "name": "GUI scale 3",
+  "category": "Visual",
+  "group": "gui",
+  "default": false
+ },
+ {
+  "id": "gui4",
+  "name": "GUI scale 4",
+  "category": "Visual",
+  "group": "gui",
+  "default": false
+ },
+ {
+  "id": "nohurtcam",
+  "name": "No hurt camera shake",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nofire",
+  "name": "No fire overlay",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "nounderwater",
+  "name": "Clear underwater view",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "novignette",
+  "name": "No vignette",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "hidevanillapotions",
+  "name": "Hide vanilla potion icons",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "noweather",
+  "name": "No rain / snow rendering",
+  "category": "Visual",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fast_graphics",
+  "name": "Fast graphics",
+  "category": "Performance",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "particles_min",
+  "name": "Minimal particles",
+  "category": "Performance",
+  "group": "particles",
+  "default": false
+ },
+ {
+  "id": "particles_dec",
+  "name": "Decreased particles",
+  "category": "Performance",
+  "group": "particles",
+  "default": false
+ },
+ {
+  "id": "entdist_low",
+  "name": "Entity distance 50%",
+  "category": "Performance",
+  "group": "entdist",
+  "default": false
+ },
+ {
+  "id": "entdist_high",
+  "name": "Entity distance 300%",
+  "category": "Performance",
+  "group": "entdist",
+  "default": false
+ },
+ {
+  "id": "vsync_off",
+  "name": "VSync off",
+  "category": "Performance",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "fps_unlimited",
+  "name": "Unlimited FPS",
+  "category": "Performance",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chunks6",
+  "name": "Render distance 6",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "chunks8",
+  "name": "Render distance 8",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "chunks12",
+  "name": "Render distance 12",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "chunks16",
+  "name": "Render distance 16",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "chunks24",
+  "name": "Render distance 24",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "chunks32",
+  "name": "Render distance 32",
+  "category": "Performance",
+  "group": "renderdist",
+  "default": false
+ },
+ {
+  "id": "sim5",
+  "name": "Simulation distance 5",
+  "category": "Performance",
+  "group": "simdist",
+  "default": false
+ },
+ {
+  "id": "sim8",
+  "name": "Simulation distance 8",
+  "category": "Performance",
+  "group": "simdist",
+  "default": false
+ },
+ {
+  "id": "sim12",
+  "name": "Simulation distance 12",
+  "category": "Performance",
+  "group": "simdist",
+  "default": false
+ },
+ {
+  "id": "mute_all",
+  "name": "Mute everything",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_music",
+  "name": "Mute music",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_ambient",
+  "name": "Mute ambient",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_weather_snd",
+  "name": "Mute weather sounds",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_hostile",
+  "name": "Mute hostile mobs",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_neutral",
+  "name": "Mute neutral mobs",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_blocks",
+  "name": "Mute blocks",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_records",
+  "name": "Mute jukeboxes",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_voice",
+  "name": "Mute voice",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "no_players",
+  "name": "Mute players",
+  "category": "Sound",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chat_clear",
+  "name": "No chat background",
+  "category": "Chat",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chat_opaque",
+  "name": "Fully opaque chat",
+  "category": "Chat",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chat_big",
+  "name": "Large chat",
+  "category": "Chat",
+  "group": "chatscale",
+  "default": false
+ },
+ {
+  "id": "chat_small",
+  "name": "Small chat",
+  "category": "Chat",
+  "group": "chatscale",
+  "default": false
+ },
+ {
+  "id": "chat_wide",
+  "name": "Wide chat",
+  "category": "Chat",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "chat_tall",
+  "name": "Tall chat",
+  "category": "Chat",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "togglesprint",
+  "name": "Toggle sprint",
+  "category": "Utility",
+  "group": "",
+  "default": true
+ },
+ {
+  "id": "togglesneak",
+  "name": "Toggle sneak",
+  "category": "Utility",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "zoom",
+  "name": "Zoom (hold C)",
+  "category": "Utility",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "autojump",
+  "name": "Auto jump",
+  "category": "Utility",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "subtitles",
+  "name": "Subtitles",
+  "category": "Utility",
+  "group": "",
+  "default": false
+ },
+ {
+  "id": "mouse_low",
+  "name": "Low mouse sensitivity",
+  "category": "Utility",
+  "group": "sens",
+  "default": false
+ },
+ {
+  "id": "mouse_high",
+  "name": "High mouse sensitivity",
+  "category": "Utility",
+  "group": "sens",
+  "default": false
+ }
+]
